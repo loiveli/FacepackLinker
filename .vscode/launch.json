@@ -11,6 +11,14 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true
+        },
+        {
+            "name": "Python: UI app",
+            "type": "python",
+            "request": "launch",
+            "program": "UI.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
         }
     ]
 }

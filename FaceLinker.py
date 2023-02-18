@@ -1,7 +1,7 @@
 
 
-playersPath = input("Please enter the path to the folder where the images are located: ")
-shortlist = input("Please enter the path to the shortlist file you exported: ")
+playersPath = "I:/FM/Football Manager 2023/graphics/1999/" #input("Please enter the path to the folder where the images are located: ")
+shortlist = "I:/FM/Football Manager 2023/Shortlist.html" #input("Please enter the path to the shortlist file you exported: ")
 valid = False
 while not valid:
     inputText = input("Do you want the script to rename all the files to playerIDs? Y/N: ")
