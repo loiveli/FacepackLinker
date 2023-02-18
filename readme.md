@@ -30,7 +30,7 @@ If you are using the 1998/1999 DB and the regen mod, here is how to link the fac
 12. Choose where you want to export the shortlist to
 
 #### Prepare the pictures you want to link
-You need to make sure the pictures you want to link are all in the same folder, and that they follow a few naming rules:
+You need to make sure the pictures you want to link are all in the same folder somewhere inside your FM files, preferrably in a "graphics" folder and that they follow a few naming rules:
 1. They need to all be either .png or .jpg files
 2. They need to be named either according to the UID of the player, Exact name of the player inside FM or they need to be named in the format: "Name_Team", you can have a mix of these but they all need to match one of the three patterns
 
