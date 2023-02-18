@@ -25,8 +25,9 @@ If you are using the 1998/1999 DB and the regen mod, here is how to link the fac
 7. Open the shortlist you created
 8. Import the view you copied to the views folder and activate it
 9. Select all the players with ctrl+A
-10. Press ctrl+P, select "Web page" and press OK **Make sure your FM is set to English (UK/US both work)**
-11. Choose where you want to export the shortlist to
+10. **Make sure your FM is set to English (UK/US both work)** 
+11. Press ctrl+P, select "Web page" and press OK 
+12. Choose where you want to export the shortlist to
 
 #### Prepare the pictures you want to link
 You need to make sure the pictures you want to link are all in the same folder, and that they follow a few naming rules:
