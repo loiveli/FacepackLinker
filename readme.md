@@ -16,7 +16,7 @@ Unzip it anywhere on your machine, it contains two files and a folder called "Vi
 #### Create and export the shortlist
 Now you need to create a shortlist of all the players you want to link the pictures to. 
 If you are using the 1998/1999 DB and the regen mod, here is how to link the facepacks to the regens from the regen mod:
-1. Create a new shortlist for the regens
+1. Create a new shortlist for the regens, remember to untick "Keep scout reports up to date"
 2. search "faceinthegame" on the search bar
 3. Change to the "People" tab
 4. Select a chunk of the players, as long as you select under 500 you are fine
