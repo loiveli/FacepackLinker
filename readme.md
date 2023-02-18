@@ -39,10 +39,10 @@ Few precautions when using the tool:
 
 ### Using the Tool
 Once you have completed all the prerequisite steps, you can now actually use the tool to link the pictures to the players.
-Run the executable, and after a while a small box with a very simple UI should open.
-In the first line, you have the shortlist, press the "Browse" button and select the shortlist file you exported
-Second line is for the folder all the pictures are in, again press the "Browse" button and navigate to the correct folder
-Third line has a checkbox. If that checkbox is checked, the tool will rename all the files with the corresponding player UIDs, if its not checked, it will keep the names as is.
-Once you have filled the first and second lines, you can then press the "Link pictures" button, this will start the linking process. Once the linking process is done it will pop up saying its done.
-After its done you need to refresh the skin inside FM and the pictures should be linked to the correct players
-You can check the config.xml file for any players that were not found in the shortlist, they will be commented at the top
+- Run the executable, and after a while a small box with a very simple UI should open.
+- In the first line, you have the shortlist, press the "Browse" button and select the shortlist file you exported
+- Second line is for the folder all the pictures are in, again press the "Browse" button and navigate to the correct folder
+- Third line has a checkbox. If that checkbox is checked, the tool will rename all the files with the corresponding player UIDs, if its not checked, it will keep the names as is.
+- Once you have filled the first and second lines, you can then press the "Link pictures" button, this will start the linking process. Once the linking process is done it will pop up saying its done.
+- After its done you need to refresh the skin inside FM and the pictures should be linked to the correct players
+- You can check the config.xml file for any players that were not found in the shortlist, they will be commented at the top
