@@ -7,11 +7,10 @@ Facelinker is a program that links pictures to players in Football Manager 23
 ## How to use it?
 
 ### Prerequisites
-1. Python
-2. Football manager 23
+1. Football manager 23
 
 #### Download
-Download the 0.1 release [here](https://github.com/loiveli/FacepackLinker/releases/tag/0.1)
+Download the 0.3 release [here](https://github.com/loiveli/FacepackLinker/releases/tag/0.3)
 Unzip it anywhere on your machine, it contains two files and a folder called "Views". Copy the contents of the view folder to your Football manager views folder
 
 #### Create and export the shortlist
@@ -32,10 +31,11 @@ If you are using the 1998/1999 DB and the regen mod, here is how to link the fac
 #### Prepare the pictures you want to link
 You need to make sure the pictures you want to link are all in the same folder, and that they follow a few naming rules:
 1. They need to all be either .png or .jpg files
-2. They need to be named either according to the UID of the player, Exact name of the player inside FM or they need to be named in the format: "Name_Team"
+2. They need to be named either according to the UID of the player, Exact name of the player inside FM or they need to be named in the format: "Name_Team", you can have a mix of these but they all need to match one of the three patterns
+
 Few precautions when using the tool: 
-Make sure you have a backup of the pictures with original names, if you choose to rename the files, those will be hardlinked and you cant really undo it
-The tool will overwrite any existing config.xml file in the folder you have the pictures in, so make a backup of that too
+- Make sure you have a backup of the pictures with original names, if you choose to rename the files, those will be hardlinked and you cant really undo it
+- The tool will overwrite any existing config.xml file in the folder you have the pictures in, so make a backup of that too
 
 ### Using the Tool
 Once you have completed all the prerequisite steps, you can now actually use the tool to link the pictures to the players.
