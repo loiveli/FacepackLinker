@@ -1,3 +1,4 @@
 qt
 output
 __pycache__
+*.log
