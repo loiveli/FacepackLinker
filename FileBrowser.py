@@ -20,7 +20,7 @@ class FileBrowser(QtWidgets.QWidget):
 
     def browse(self):
         if(self.file):
-            self.fileName, filter = QtWidgets.QFileDialog().getOpenFileName(self, self.text, ".",self.acceptedTypes)
+            self.fileName, filter = QtWidgets.QFileDialog().getOpenFileName(self, self.text, self.fileName,self.acceptedTypes)
         else:
-            self.fileName= QtWidgets.QFileDialog().getExistingDirectory(self, self.text, ".")
+            self.fileName= QtWidgets.QFileDialog().getExistingDirectory(self, self.text, self.fileName)
         self.pathField.setText(self.fileName)

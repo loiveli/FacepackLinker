@@ -27,9 +27,9 @@ class MyWidget(QtWidgets.QWidget):
         if self.shortlist.pathField.text() and self.playerPictures.pathField.text():
             self.functionalityButton.setEnabled(True)
     def linkPlayers(self):
-        functionality.linkPlayers(self.shortlist.fileName, self.playerPictures.fileName, self.rename.isChecked() )
         messageBox = QtWidgets.QMessageBox()
-        messageBox.setText("Pictures have been linked")
+        messageText = functionality.linkPlayers(self.shortlist.fileName, self.playerPictures.fileName, self.rename.isChecked() )
+        messageBox.setText(messageText)
         messageBox.exec()
 
 
